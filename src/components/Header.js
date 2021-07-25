@@ -50,8 +50,6 @@ function Header({ history }) {
         })
     })
 
-
-
     return (
         <header>
             <div className='container'>
@@ -70,11 +68,9 @@ function Header({ history }) {
                 </div>
 
                 <Menu state={state} />
-
-
-
             </div>
         </header>
     );
 }
+
 export default withRouter(Header);
