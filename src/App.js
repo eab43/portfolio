@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import SplashScreen from './components/SplashScreen';
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Projects from './components/Projects';
-import ContactMe from './components/ContactMe';
-import Home from './components/Home';
+import ContactMe from './pages/ContactMe';
+
+import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Home from './pages/Home';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Header />
         <div className='container'>
           <div className='wrapper'>
-            <div className='home'>
+            <div className='page'>
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/about-me' component={AboutMe} />

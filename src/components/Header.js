@@ -41,7 +41,7 @@ function Header({ history }) {
         setDisabled(!disabled);
         setTimeout(() => {
             setDisabled(false);
-        }, 1200)
+        }, 800)
     }
 
     useEffect(() => {
@@ -60,8 +60,10 @@ function Header({ history }) {
 
                         </div>
                         <div className='btn-container'>
+
                             <button disabled={disabled} onClick={handleMenu}>
-                                Menu
+                                <span className='inner'></span>
+                                <i className='menu-text'>Menu</i>
                             </button>
                         </div>
                     </div>
