@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 
-import newyork from '../images/newyork.webp';
+import nyc from '../images/nyc3.jpg';
 import newark from '../images/newark.webp';
 import bohol from '../images/bohol.webp';
 
@@ -99,7 +99,7 @@ function Menu({ state }) {
     /* CITY BACKGROUND ANIMATION START */
 
     const cities = [
-        { name: 'New York', image: newyork },
+        { name: 'New York City', image: nyc },
         { name: 'Newark, New Jersey (Currently)', image: newark },
         { name: 'Bohol', image: bohol },
 

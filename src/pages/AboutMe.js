@@ -1,15 +1,10 @@
 import React, { useRef } from 'react';
 import gsap from 'gsap';
 
-import newark from '../images/newark.webp';
 import runewark from '../images/ru-newark.jpg';
 
 import bohol from '../images/bohol.webp';
 
-/*<span key={el.name} onMouseEnter={() => handleCity(el.image)} onMouseOut={handleCityReturn}>
-{el.name}
-</span>
-*/
 
 function AboutMe() {
     let backgroundRef = useRef(null);
@@ -33,13 +28,6 @@ function AboutMe() {
             color: 'white',
         });
 
-        /*gsap.to('span::after', {
-            duration: 0.5,
-            backgroundColor: 'white'
-        })
-        */
-
-
     }
 
     const handleBackgroundReturn = () => {
@@ -59,8 +47,6 @@ function AboutMe() {
 
     }
 
-    // <span onMouseEnter={() => handleText(bohol)} onMouseOut={handleTextReturn} > Bohol, Philippines. </span>
-    //ref={el => (keytext = el)}
     return (
         <div className='aboutme' ref={el => (backgroundRef = el)} >
             <div className='aboutme-content'>
@@ -72,7 +58,7 @@ function AboutMe() {
                     I graduated with a B.A. in Computer Science from {' '}
                     <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(runewark)} onMouseOut={handleBackgroundReturn}>Rutgers University Newark </span>
                     <br />
-                    I enjoy coding, collaboration, and improving everyday.
+                    I enjoy chess, coding, collaboration, and improving everyday.
                 </div>
             </div>
         </div >
