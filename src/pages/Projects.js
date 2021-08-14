@@ -11,13 +11,18 @@ import img3 from '../images/3.jpeg';
 import img4 from '../images/4.jpeg';
 import img5 from '../images/5.jpeg';
 
+import rhealth1 from '../images/rhealth1.jpeg';
+//import rhealth2 from '../images/rhealth2.jpeg';
+import rhealth3 from '../images/rhealth3.jpeg';
+import rhealth4 from '../images/rhealth4.jpeg';
+//import rhealth5 from '../images/rhealth5.jpeg';
+
 
 
 //This page uses the fullpage.js react wrapper
 //Starter code here: https://github.com/alvarotrigo/react-fullpage
 
 const Projects = () => (
-
 
     <ReactFullpage
 
@@ -26,8 +31,6 @@ const Projects = () => (
         navigation='true'
         navigationPosition='left'
         render={({ state, fullpageApi }) => {
-
-
 
             return (
                 < ReactFullpage.Wrapper >
@@ -38,20 +41,21 @@ const Projects = () => (
                                     <span>Rutgers</span> <span>Health</span>
                                 </div>
                                 <div className='project-description'>
-                                    <span>Mobile Application </span> <span>&#11044;</span> <span> React Native, Nodejs, AWS</span>
+                                    <span>Mobile Application </span> <span>&#11044;</span> <span> React Native, Nodejs, AWS, Youtube API</span>
                                 </div>
                                 <div className='project-links'>
-                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Github  </a>
-                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Demo </a>
+                                    <a href='https://github.com/eab43/rutgershealth' target="_blank" rel="noreferrer noopener">Github  </a>
+                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Video Demo </a>
                                 </div>
                             </div>
-                            <div className='project-images'>
-                                <img src={img1} className='img' alt='' />
-                                <img src={img2} className='img' alt='' />
-                                <img src={img3} className='img' alt='' />
-                                <img src={img4} className='img' alt='' />
-                                <img src={img5} className='img' alt='' />
+                            <div className='project-images-layout-1'>
+                                <img src={rhealth1} className='img' alt='' />
+                                <img src={rhealth3} className='img' alt='' />
+                                <img src={rhealth4} className='img' alt='' />
+
+
                             </div>
+
                         </div>
                     </div>
 
@@ -69,7 +73,7 @@ const Projects = () => (
                                     <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Demo </a>
                                 </div>
                             </div>
-                            <div className='project-images'>
+                            <div className='project-images-layout-2'>
                                 <img src={img1} className='img' alt='' />
                                 <img src={img2} className='img' alt='' />
                                 <img src={img3} className='img' alt='' />
@@ -77,7 +81,6 @@ const Projects = () => (
                                 <img src={img5} className='img' alt='' />
                             </div>
                         </div>
-
                     </div>
 
 
@@ -91,11 +94,33 @@ const Projects = () => (
                                     <span>Website</span> <span>&#11044;</span> <span> React, Nodejs, GSAP</span>
                                 </div>
                                 <div className='project-links'>
+                                    <a href='https://github.com/eab43/portfolio' target="_blank" rel="noreferrer noopener">Github  </a>
+                                    <a href='https://github.com/eab43/portfolio'>This website. </a>
+                                </div>
+                            </div>
+                            <div className='project-images-layout-3'>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div className="section">
+                        <div className='project-container'>
+                            <div clasName='project-content'>
+                                <div className='project-name'>
+                                    <span>/r/Cars</span> <span>Wiki Bot</span>
+                                </div>
+                                <div className='project-description'>
+                                    <span>Reddit Bot</span> <span>&#11044;</span> <span> Python, PRAW</span>
+                                </div>
+                                <div className='project-links'>
                                     <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Github  </a>
                                     <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Demo </a>
                                 </div>
                             </div>
-                            <div className='project-images'>
+                            <div className='project-images-layout-2'>
                                 <img src={img1} className='img' alt='' />
                                 <img src={img2} className='img' alt='' />
                                 <img src={img3} className='img' alt='' />
@@ -103,7 +128,6 @@ const Projects = () => (
                                 <img src={img5} className='img' alt='' />
                             </div>
                         </div>
-
                     </div>
 
                 </ReactFullpage.Wrapper >

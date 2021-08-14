@@ -1,6 +1,12 @@
 
 function ContactMe() {
-    return <p>Feel free to reach us.</p>;
+    return (
+        <div className='contactme'>
+            <h1 >
+                EaB
+            </h1>
+        </div>
+    )
 }
 
 
