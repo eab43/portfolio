@@ -55,8 +55,9 @@ function AboutMe() {
                     born from the island of&nbsp;
                     <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(bohol)} onMouseOut={handleBackgroundReturn}>Bohol.</span>
 
-                    &nbsp;I graduated with a B.A. in Computer Science from
-                    <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(runewark)} onMouseOut={handleBackgroundReturn}>Rutgers University Newark. </span>
+                    &nbsp;I graduated from
+                    <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(runewark)} onMouseOut={handleBackgroundReturn}>Rutgers University Newark</span>
+                    &nbsp;with a B.A. in Computer Science.
 
                     &nbsp;I enjoy chess, coding, collaboration, learning
                     and improving everyday.

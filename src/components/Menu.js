@@ -6,6 +6,11 @@ import nyc from '../images/nyc3.jpg';
 import newark from '../images/newark.webp';
 import bohol from '../images/bohol.webp';
 
+import github from '../images/github3.png';
+import linkedin from '../images/linkedin.png';
+
+
+
 
 function Menu({ state }) {
 
@@ -149,15 +154,21 @@ function Menu({ state }) {
                                     <li ref={el => (line3 = el)}><Link to='/contact-me'>Resume</Link></li>
                                 </ul>
                             </nav>
-                            <div ref={el => (info = el)} className='info' >
+                            <div ref={el => (info = el)} className='social_links' >
                                 <h3>You can find me at: </h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                                    and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                </p>
+                                <ul>
+                                    <li >
+                                        <a href="https://github.com/eab43" target="_blank" rel="noreferrer noopener">
+                                            <img src={github} />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li >
+                                        <a href="https://www.linkedin.com/in/elvin-aidan-bernales-7a670421a/" target="_blank" rel="noreferrer noopener">
+                                            <img src={linkedin} />
+                                        </a>                                    </li>
+                                </ul>
                             </div>
                             <div className='location'>
                                 Location:
@@ -176,5 +187,9 @@ function Menu({ state }) {
         </div >
     );
 }
-
+/*
+<a href="https://github.com/eab43" target="_blank" rel="noreferrer noopener">
+<img src={github} />
+</a>
+*/
 export default Menu;

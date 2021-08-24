@@ -197,17 +197,25 @@ header {
                 }
               }
             }
-          .info {
+          .social_links {
             color: #fff;
-            width: 300px;
-
             h3 {
-              font-size: 1.2rem;
+              font-size: 1.5rem;
               margin: 8px auto;
             }
-            p {
-              margin: 0 auto;
-              font-size: 0.8rem;
+            li {
+              list-style: none;
+              margin: 10px 30px;
+              width: 64px;
+              height: 64px;
+              padding: 20px 20px;
+              color: #fff;
+              border-radius: 50%;
+              transition: .5s;         
+              background: #fff;     
+            }
+            li:hover {
+              color: yellow;
             }
           }
           .location {
