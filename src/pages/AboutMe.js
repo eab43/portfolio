@@ -52,13 +52,14 @@ function AboutMe() {
             <div className='aboutme-content'>
                 <div className='text-content' ref={el => (normaltext = el)}>
                     Hi, I am a Filipino American
-                    <br /> born from the island of {' '}
+                    born from the island of&nbsp;
                     <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(bohol)} onMouseOut={handleBackgroundReturn}>Bohol.</span>
-                    <br />
-                    I graduated with a B.A. in Computer Science from {' '}
-                    <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(runewark)} onMouseOut={handleBackgroundReturn}>Rutgers University Newark </span>
-                    <br />
-                    I enjoy chess, coding, collaboration, and improving everyday.
+
+                    &nbsp;I graduated with a B.A. in Computer Science from
+                    <span className='keytext' ref={el => (spanref = el)} onMouseEnter={() => handleBackground(runewark)} onMouseOut={handleBackgroundReturn}>Rutgers University Newark. </span>
+
+                    &nbsp;I enjoy chess, coding, collaboration, learning
+                    and improving everyday.
                 </div>
             </div>
         </div >

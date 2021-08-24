@@ -306,6 +306,8 @@ header {
 
       .aboutme-content{
         align-items: center;
+        height: 60%;
+        width: 85%;
         padding: 2.75rem ;
         .text-content{
           font-size: 4.5rem;
@@ -515,6 +517,7 @@ header {
     .img:nth-child(4) {
       grid-row: 2/-1;
       grid-column: 5/-1;
+
       
     }
     .img:nth-child(5) {
@@ -530,11 +533,11 @@ header {
     grid-template-rows: repeat(4, 1fr);
     position: relative;
     height: 550px;
+    width: 500px;
     grid-gap: 10px;
     margin-right: 8%;
     margin-bottom: 25%;
-    
-
+  
     .img:nth-child(1) {
       grid-column: 1/5;
       grid-row: 1/5;
@@ -542,6 +545,23 @@ header {
     }
   }
 
+  .project-images-layout-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr); 
+    position: relative;
+    height: 550px;
+    grid-gap: 10px;
+    margin-right: 8%;
+    margin-bottom: 25%;
+  
+    .img:nth-child(1) {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 25px;
+
+    }
+
+  }
 
 }
 

@@ -4,6 +4,9 @@ import ReactDOM from "react-dom";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 
+import cb from '../images/cb.png';
+import cbfull from '../images/cbfull.png';
+
 
 import img1 from '../images/1.jpeg';
 import img2 from '../images/2.jpeg';
@@ -27,7 +30,7 @@ const Projects = () => (
     <ReactFullpage
 
         //fullpage options
-        scrollingSpeed={1000} /* Options here */
+        scrollingSpeed={1000}
         navigation='true'
         navigationPosition='left'
         render={({ state, fullpageApi }) => {
@@ -41,7 +44,7 @@ const Projects = () => (
                                     <span>Rutgers</span> <span>Health</span>
                                 </div>
                                 <div className='project-description'>
-                                    <span>Mobile Application </span> <span>&#11044;</span> <span> React Native, Nodejs, AWS, Youtube API</span>
+                                    <span>Mobile Application </span> <span>&#11044;</span> <span> React Native, Nodejs, AWS</span>
                                 </div>
                                 <div className='project-links'>
                                     <a href='https://github.com/eab43/rutgershealth' target="_blank" rel="noreferrer noopener">Github  </a>
@@ -63,22 +66,19 @@ const Projects = () => (
                         <div className='project-container'>
                             <div clasName='project-content'>
                                 <div className='project-name'>
-                                    <span>/r/Cars</span> <span>Wiki Bot</span>
+                                    <span>Car</span> <span>Builds</span>
                                 </div>
                                 <div className='project-description'>
-                                    <span>Reddit Bot</span> <span>&#11044;</span> <span> Python, PRAW</span>
+                                    <span>Website</span> <span>&#11044;</span> <span>React, Nodejs, Redux, Express, MongoDB</span>
                                 </div>
                                 <div className='project-links'>
-                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Github  </a>
-                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Demo </a>
+                                    <a href='https://github.com/eab43/car_builds' target="_blank" rel="noreferrer noopener">Github  </a>
+                                    <a href='https://carbuilds.netlify.app/' target="_blank" rel="noreferrer noopener">Demo </a>
                                 </div>
                             </div>
-                            <div className='project-images-layout-2'>
-                                <img src={img1} className='img' alt='' />
-                                <img src={img2} className='img' alt='' />
-                                <img src={img3} className='img' alt='' />
-                                <img src={img4} className='img' alt='' />
-                                <img src={img5} className='img' alt='' />
+                            <div className='project-images-layout-4'>
+                                <img src={cbfull} className='img' alt='' />
+
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const Projects = () => (
 
                     </div>
 
-
+                    {/*
                     <div className="section">
                         <div className='project-container'>
                             <div clasName='project-content'>
@@ -129,6 +129,8 @@ const Projects = () => (
                             </div>
                         </div>
                     </div>
+
+                    */}
 
                 </ReactFullpage.Wrapper >
 
