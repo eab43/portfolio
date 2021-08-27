@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d88855a7.chunk.css",
+    "main.js": "/portfolio/static/js/main.83c1a62d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.83c1a62d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.310b3806.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.310b3806.js.map",
+    "static/js/2.fa42302a.chunk.js": "/portfolio/static/js/2.fa42302a.chunk.js",
+    "static/js/2.fa42302a.chunk.js.map": "/portfolio/static/js/2.fa42302a.chunk.js.map",
+    "static/js/3.4e00770b.chunk.js": "/portfolio/static/js/3.4e00770b.chunk.js",
+    "static/js/3.4e00770b.chunk.js.map": "/portfolio/static/js/3.4e00770b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.d88855a7.chunk.css.map": "/portfolio/static/css/main.d88855a7.chunk.css.map",
+    "static/js/2.fa42302a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fa42302a.chunk.js.LICENSE.txt",
+    "static/media/1.2fc5f6c9.jpeg": "/portfolio/static/media/1.2fc5f6c9.jpeg",
+    "static/media/2.dd8f1469.jpeg": "/portfolio/static/media/2.dd8f1469.jpeg",
+    "static/media/3.a04caa5c.jpeg": "/portfolio/static/media/3.a04caa5c.jpeg",
+    "static/media/4.4f4b3be9.jpeg": "/portfolio/static/media/4.4f4b3be9.jpeg",
+    "static/media/5.4903347d.jpeg": "/portfolio/static/media/5.4903347d.jpeg",
+    "static/media/App.scss": "/portfolio/static/media/Gloss_And_Bloom.e3ac1c7f.ttf",
+    "static/media/bohol.3122b1fb.webp": "/portfolio/static/media/bohol.3122b1fb.webp",
+    "static/media/cb.307a9b6c.png": "/portfolio/static/media/cb.307a9b6c.png",
+    "static/media/cbfull.3fc030ad.png": "/portfolio/static/media/cbfull.3fc030ad.png",
+    "static/media/newark.8021d828.webp": "/portfolio/static/media/newark.8021d828.webp",
+    "static/media/nyc3.bbf14bc9.jpg": "/portfolio/static/media/nyc3.bbf14bc9.jpg",
+    "static/media/rhealth1.1fedac0f.jpeg": "/portfolio/static/media/rhealth1.1fedac0f.jpeg",
+    "static/media/rhealth3.c8a7993d.jpeg": "/portfolio/static/media/rhealth3.c8a7993d.jpeg",
+    "static/media/rhealth4.d16488c8.jpeg": "/portfolio/static/media/rhealth4.d16488c8.jpeg",
+    "static/media/ru-newark.8fc69f8c.jpg": "/portfolio/static/media/ru-newark.8fc69f8c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.310b3806.js",
+    "static/js/2.fa42302a.chunk.js",
+    "static/css/main.d88855a7.chunk.css",
+    "static/js/main.83c1a62d.chunk.js"
+  ]
+}
