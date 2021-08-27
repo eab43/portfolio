@@ -21,7 +21,7 @@ function App() {
                 <Route exact path='/' component={Home} />
                 <Route exact path='/about-me' component={AboutMe} />
                 <Route exact path='/projects' component={Projects} />
-                <Route exact path='/contact-me' component={ContactMe} />
+                <a href="eab_resume.pdf" download>Resume</a>
               </Switch>
             </div>
           </div>

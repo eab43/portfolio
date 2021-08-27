@@ -151,7 +151,7 @@ function Menu({ state }) {
                                 <ul>
                                     <li ref={el => (line1 = el)}><Link to='/about-me'>About Me</Link></li>
                                     <li ref={el => (line2 = el)}><Link to='/projects'>Projects</Link></li>
-                                    <li ref={el => (line3 = el)}><Link to='/contact-me'>Resume</Link></li>
+                                    <li ref={el => (line3 = el)}><a href="eab_resume.pdf" download>Resume</a></li>
                                 </ul>
                             </nav>
                             <div ref={el => (info = el)} className='social_links' >
