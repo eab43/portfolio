@@ -48,7 +48,6 @@ const Projects = () => (
                                 </div>
                                 <div className='project-links'>
                                     <a href='https://github.com/eab43/rutgershealth' target="_blank" rel="noreferrer noopener">Github  </a>
-                                    <a href='https://www.google.com/' target="_blank" rel="noreferrer noopener">Video Demo </a>
                                 </div>
                             </div>
                             <div className='project-images-layout-1'>
